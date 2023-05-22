@@ -6,7 +6,9 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.netflix.hystrix.EnableHystrix;
 
 @SpringBootApplication
+//enable to discovered by eureka server
 @EnableDiscoveryClient
+//circuit breaker
 @EnableHystrix
 public class AdminApplication {
 

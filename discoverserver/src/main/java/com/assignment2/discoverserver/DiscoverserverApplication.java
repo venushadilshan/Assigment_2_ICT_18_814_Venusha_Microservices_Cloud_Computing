@@ -5,6 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
+//make this an eureka server
 @EnableEurekaServer
 public class DiscoverserverApplication {
 
